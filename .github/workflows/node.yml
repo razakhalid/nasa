@@ -16,6 +16,6 @@ jobs:
       - name: npm init
         run: npm init -y
       - run: npm install
-      - name: install react-scripts
-        run: npm install react-scripts --prefix client
+      - name: npm install in client
+        run: npm install --prefix client
       - run: npm run build --prefix client
